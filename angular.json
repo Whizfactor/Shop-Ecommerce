@@ -171,9 +171,15 @@
     }
   },
   "cli": {
-    "defaultCollection": "@ionic/angular-toolkit"
+    "defaultCollection": "@schematics/angular"
   },
   "schematics": {
+    "@schematics/angular:component": {
+        "style": "scss"
+    },
+    "@schematics/angular:application": {
+        "strict": true
+    },
     "@ionic/angular-toolkit:component": {
       "styleext": "scss"
     },
