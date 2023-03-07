@@ -16,6 +16,6 @@ import { ComponentsModule } from '../../components/components.module';
     HomePageRoutingModule,
     ComponentsModule,
   ],
-  declarations: [HomePage]
+  declarations: [HomePage],
 })
 export class HomePageModule {}
