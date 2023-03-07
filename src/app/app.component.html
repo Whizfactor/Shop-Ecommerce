@@ -2,10 +2,10 @@
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
+        
         <ion-list id="inbox-list">
-          <ion-thumbnail class='mx-auto my-2 rounded'>
-            <img src="https://i.ibb.co/6mK8Cfr/l.png" alt="l" border="0">
-          </ion-thumbnail>
+          <ion-list-header>Inbox</ion-list-header>
+          <ion-note></ion-note>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
@@ -14,6 +14,7 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>

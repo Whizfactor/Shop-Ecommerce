@@ -34,6 +34,7 @@
     "@ionic/angular": "^6.5.2",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "firebase": "^9.17.2",
     "formidable": "^3.2.5",
     "karma": "^6.4.1",
     "ng-packagr": "^15.1.1",
